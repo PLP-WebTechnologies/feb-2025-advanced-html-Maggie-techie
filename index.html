@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2 Assignment </title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My HTML5 Page</h1>
+    </header>
+    
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Ordered List</h2>
+        <ol type="I">
+            <li>Item One</li>
+            <li>Item Two</li>
+            <li>Item Three</li>
+        </ol>
+    </section>
+    
+    <!-- External Image -->
+    <section>
+        <h2>External Image</h2>
+        <img src="https://www.pexels.com/photo/colorful-trees-in-park-in-autumn-23224477/" alt="Beautiful Nature" width="500">
+    </section>
+    
+    <!-- Contact Table -->
+    <section>
+        <h2>Contact List</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Margaret Njeri</td>
+                    <td>123 Main St</td>
+                    <td>0714007761</td>
+                    <td>karongo27@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Maina</td>
+                    <td>456 Elm St</td>
+                    <td>07654321</td>
+                    <td>janemaina@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Mike kamau</td>
+                    <td>789 Oak St</td>
+                    <td>07233445</td>
+                    <td>mike492@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Alice Cherono </td>
+                    <td>567 Pine St</td>
+                    <td>+445566778</td>
+                    <td>cheronoalice@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Allan Onyango</td>
+                    <td>345 Birch St</td>
+                    <td>07877665</td>
+                    <td>onyango52@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter a secure password" required><br><br>
+            
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+            
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female" required>
+            <label for="female">Female</label><br><br>
+            
+            <label for="course">Select Course:</label>
+            <select id="course" name="course" required>
+                <option value="">--Select--</option>
+                <option value="cs">Computer Science</option>
+                <option value="it">Information Technology</option>
+                <option value="se">Software Engineering</option>
+            </select><br><br>
+            
+            <label>Interests:</label>
+            <input type="checkbox" id="coding" name="interests" value="Coding">
+            <label for="coding">Coding</label>
+            <input type="checkbox" id="reading" name="interests" value="Reading">
+            <label for="reading">Reading</label>
+            <input type="checkbox" id="traveling" name="interests" value="Traveling">
+            <label for="traveling">Traveling</label><br><br>
+            
+            <input type="submit" value="Register">
+            <input type="reset"  value="clear">
+        </form>
+    </section>
+    
+    <!-- Multimedia Elements -->
+    <section>
+        <h2>Multimedia Elements</h2>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <br><br>
+        <video width="500" controls>
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+</body>
+</html>
